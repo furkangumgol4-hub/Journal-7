@@ -24,10 +24,14 @@ def main():
 
     total = sum(scores)
     average = total / len(scores)
+    maximum = max(scores)
+    minimum = min(scores)
 
     print("Scores:", scores)
     print("Sum:", total)
     print("Average:", average)
+    print("Maximum:", maximum)
+    print("Minimum:", minimum)
 
 if __name__ == "__main__":
     main()
